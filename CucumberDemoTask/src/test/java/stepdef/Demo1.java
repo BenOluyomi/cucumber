@@ -24,9 +24,7 @@ public class Demo1 {
 	@Before
 	public static void init() {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe"); // set driver path
-		ChromeOptions options = new ChromeOptions();
-
-		driver = new ChromeDriver(chromeCfg());
+		driver = new ChromeDriver();
 	}
 	
 	@After
