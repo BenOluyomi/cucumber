@@ -22,7 +22,7 @@ public class GoogleKittens {
 	@Before
 	public static void init() {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe"); // set driver path
-	    driver =new ChromeDriver(); 
+	    driver = new ChromeDriver(); 
 	}
 	
 	@After
