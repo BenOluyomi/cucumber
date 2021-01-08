@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.843428">
+    <testcase classname="Search for Dress" name="Search a dress" time="7.843428">
+        <system-out><![CDATA[Given Open the page.........................................................passed
+When Search for Dress.......................................................passed
+Then Printed summer dress will be shown.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3451122908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shop.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search a dress",
+        "description": "",
+        "id": "search-for-dress;search-a-dress",
+        "after": [
+          {
+            "result": {
+              "duration": 601213143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shop.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2716777272,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the page",
+            "match": {
+              "location": "shop.open_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1046846317,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search for Dress",
+            "match": {
+              "location": "shop.search_for_Dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27468086,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Printed summer dress will be shown",
+            "match": {
+              "location": "shop.printed_summer_dress_will_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for Dress",
+    "description": "",
+    "id": "search-for-dress",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumber/shop.feature"
+  }
+]
