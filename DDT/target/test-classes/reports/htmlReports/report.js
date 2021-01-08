@@ -1,190 +1,113 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/cuke/kittens.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/cucumber/shops.feature");
 formatter.feature({
   "line": 1,
-  "name": "Search on Google",
+  "name": "Search for Dress",
   "description": "",
-  "id": "search-on-google",
+  "id": "search-for-dress",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
+formatter.before({
+  "duration": 3412440757,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Search a dress",
+  "description": "",
+  "id": "search-for-dress;search-a-dress",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Open the page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Search for Dress",
+  "keyword": "When "
+});
+formatter.step({
   "line": 6,
-  "name": "",
-  "description": "",
-  "id": "search-on-google;",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "I search for \u003csearch\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Google will give me \u003cresult\u003e",
+  "name": "Printed summer dress will be shown",
   "keyword": "Then "
 });
-formatter.examples({
+formatter.match({
+  "location": "shop.open_the_page()"
+});
+formatter.result({
+  "duration": 2292619314,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shop.search_for_Dress()"
+});
+formatter.result({
+  "duration": 1078985318,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shop.printed_summer_dress_will_be_shown()"
+});
+formatter.result({
+  "duration": 25215356,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 17390,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3021129012,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 8,
+  "name": "Create a user",
+  "description": "",
+  "id": "search-for-dress;create-a-user",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 9,
+  "name": "Can enter email and rest of info",
+  "keyword": "Given "
+});
+formatter.step({
   "line": 10,
-  "name": "",
-  "description": "",
-  "id": "search-on-google;;",
-  "rows": [
-    {
-      "cells": [
-        "search",
-        "result"
-      ],
-      "line": 11,
-      "id": "search-on-google;;;1"
-    },
-    {
-      "cells": [
-        "Kittens",
-        "Kittens"
-      ],
-      "line": 12,
-      "id": "search-on-google;;;2"
-    },
-    {
-      "cells": [
-        "Puppies",
-        "Puppies"
-      ],
-      "line": 13,
-      "id": "search-on-google;;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 2447515701,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "I can open Google",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "GoogleKittens.i_can_open_Google()"
-});
-formatter.result({
-  "duration": 950257301,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 12,
-  "name": "",
-  "description": "",
-  "id": "search-on-google;;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "I search for Kittens",
-  "matchedColumns": [
-    0
-  ],
+  "name": "login details entered",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "Google will give me Kittens",
-  "matchedColumns": [
-    1
-  ],
+  "line": 11,
+  "name": "user can login",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "GoogleKittens.i_search_for_kittens()"
+  "location": "shop.can_enter_email_and_rest_of_info()"
 });
 formatter.result({
-  "duration": 47444899,
+  "duration": 5192847973,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleKittens.google_will_give_me_Kittens()"
+  "location": "shop.login_details_entered()"
 });
 formatter.result({
-  "duration": 1249197000,
+  "duration": 18717,
+  "status": "passed"
+});
+formatter.match({
+  "location": "shop.user_can_login()"
+});
+formatter.result({
+  "duration": 14108,
   "status": "passed"
 });
 formatter.after({
-  "duration": 527401399,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2112409000,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "I can open Google",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "GoogleKittens.i_can_open_Google()"
-});
-formatter.result({
-  "duration": 849365300,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "",
-  "description": "",
-  "id": "search-on-google;;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "I search for Puppies",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Google will give me Puppies",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GoogleKittens.i_search_for_puppies()"
-});
-formatter.result({
-  "duration": 41189999,
-  "status": "passed"
-});
-formatter.match({
-  "location": "GoogleKittens.google_will_return_a_puppies_search()"
-});
-formatter.result({
-  "duration": 1625822399,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 539739600,
+  "duration": 9149,
   "status": "passed"
 });
 });

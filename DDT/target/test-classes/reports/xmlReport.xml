@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.390342">
-    <testcase classname="Search on Google" name="_2" time="5.221816">
-        <system-out><![CDATA[Given I can open Google.....................................................passed
-When I search for Kittens...................................................passed
-Then Google will give me Kittens............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="15.023297">
+    <testcase classname="Search for Dress" name="Search a dress" time="6.809278">
+        <system-out><![CDATA[Given Open the page.........................................................passed
+When Search for Dress.......................................................passed
+Then Printed summer dress will be shown.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search on Google" name="_3" time="5.168526">
-        <system-out><![CDATA[Given I can open Google.....................................................passed
-When I search for Puppies...................................................passed
-Then Google will give me Puppies............................................passed
+    <testcase classname="Search for Dress" name="Create a user" time="8.214019">
+        <system-out><![CDATA[Given Can enter email and rest of info......................................passed
+When login details entered..................................................passed
+Then user can login.........................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

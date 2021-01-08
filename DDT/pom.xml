@@ -12,7 +12,15 @@
 			<version>1.2.4</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
 
+			<groupId>com.relevantcodes</groupId>
+
+			<artifactId>extentreports</artifactId>
+
+			<version>2.41.2</version>
+
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>

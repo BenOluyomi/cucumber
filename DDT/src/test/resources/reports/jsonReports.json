@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3451122908,
+              "duration": 3407864826,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 601213143,
+              "duration": 16134,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2716777272,
+              "duration": 2433703935,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1046846317,
+              "duration": 1002853855,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 27468086,
+              "duration": 27196473,
               "status": "passed"
             },
             "line": 6,
@@ -69,12 +69,80 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3027083610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shop.init()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Create a user",
+        "description": "",
+        "id": "search-for-dress;create-a-user",
+        "after": [
+          {
+            "result": {
+              "duration": 9568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shop.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5909026845,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Can enter email and rest of info",
+            "match": {
+              "location": "shop.can_enter_email_and_rest_of_info()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24305,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login details entered",
+            "match": {
+              "location": "shop.login_details_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11664,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user can login",
+            "match": {
+              "location": "shop.user_can_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
     ],
     "name": "Search for Dress",
     "description": "",
     "id": "search-for-dress",
     "keyword": "Feature",
-    "uri": "src/test/resources/cucumber/shop.feature"
+    "uri": "src/test/resources/cucumber/shops.feature"
   }
 ]

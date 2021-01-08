@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.843428">
-    <testcase classname="Search for Dress" name="Search a dress" time="7.843428">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="15.807791">
+    <testcase classname="Search for Dress" name="Search a dress" time="6.871635">
         <system-out><![CDATA[Given Open the page.........................................................passed
 When Search for Dress.......................................................passed
 Then Printed summer dress will be shown.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search for Dress" name="Create a user" time="8.936156">
+        <system-out><![CDATA[Given Can enter email and rest of info......................................passed
+When login details entered..................................................passed
+Then user can login.........................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

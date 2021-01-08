@@ -3,176 +3,146 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 950257301,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I can open Google",
-            "match": {
-              "location": "GoogleKittens.i_can_open_Google()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
         "before": [
           {
             "result": {
-              "duration": 2447515701,
+              "duration": 3412440757,
               "status": "passed"
             },
             "match": {
-              "location": "GoogleKittens.init()"
+              "location": "shop.init()"
             }
           }
         ],
-        "line": 12,
-        "name": "",
+        "line": 3,
+        "name": "Search a dress",
         "description": "",
-        "id": "search-on-google;;;2",
+        "id": "search-for-dress;search-a-dress",
         "after": [
           {
             "result": {
-              "duration": 527401399,
+              "duration": 17390,
               "status": "passed"
             },
             "match": {
-              "location": "GoogleKittens.cleanUp()"
+              "location": "shop.cleanUp()"
             }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 47444899,
+              "duration": 2292619314,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I search for Kittens",
+            "line": 4,
+            "name": "Open the page",
             "match": {
-              "location": "GoogleKittens.i_search_for_kittens()"
+              "location": "shop.open_the_page()"
             },
-            "matchedColumns": [
-              0
-            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078985318,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search for Dress",
+            "match": {
+              "location": "shop.search_for_Dress()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1249197000,
+              "duration": 25215356,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Google will give me Kittens",
+            "line": 6,
+            "name": "Printed summer dress will be shown",
             "match": {
-              "location": "GoogleKittens.google_will_give_me_Kittens()"
+              "location": "shop.printed_summer_dress_will_be_shown()"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 849365300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I can open Google",
-            "match": {
-              "location": "GoogleKittens.i_can_open_Google()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
         "before": [
           {
             "result": {
-              "duration": 2112409000,
+              "duration": 3021129012,
               "status": "passed"
             },
             "match": {
-              "location": "GoogleKittens.init()"
+              "location": "shop.init()"
             }
           }
         ],
-        "line": 13,
-        "name": "",
+        "line": 8,
+        "name": "Create a user",
         "description": "",
-        "id": "search-on-google;;;3",
+        "id": "search-for-dress;create-a-user",
         "after": [
           {
             "result": {
-              "duration": 539739600,
+              "duration": 9149,
               "status": "passed"
             },
             "match": {
-              "location": "GoogleKittens.cleanUp()"
+              "location": "shop.cleanUp()"
             }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 41189999,
+              "duration": 5192847973,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I search for Puppies",
+            "line": 9,
+            "name": "Can enter email and rest of info",
             "match": {
-              "location": "GoogleKittens.i_search_for_puppies()"
+              "location": "shop.can_enter_email_and_rest_of_info()"
             },
-            "matchedColumns": [
-              0
-            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18717,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login details entered",
+            "match": {
+              "location": "shop.login_details_entered()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1625822399,
+              "duration": 14108,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Google will give me Puppies",
+            "line": 11,
+            "name": "user can login",
             "match": {
-              "location": "GoogleKittens.google_will_return_a_puppies_search()"
+              "location": "shop.user_can_login()"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Search on Google",
+    "name": "Search for Dress",
     "description": "",
-    "id": "search-on-google",
+    "id": "search-for-dress",
     "keyword": "Feature",
-    "uri": "src/test/resources/cuke/kittens.feature"
+    "uri": "src/test/resources/cucumber/shops.feature"
   }
 ]
