@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3412440757,
+  "duration": 3407864826,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,29 +37,29 @@ formatter.match({
   "location": "shop.open_the_page()"
 });
 formatter.result({
-  "duration": 2292619314,
+  "duration": 2433703935,
   "status": "passed"
 });
 formatter.match({
   "location": "shop.search_for_Dress()"
 });
 formatter.result({
-  "duration": 1078985318,
+  "duration": 1002853855,
   "status": "passed"
 });
 formatter.match({
   "location": "shop.printed_summer_dress_will_be_shown()"
 });
 formatter.result({
-  "duration": 25215356,
+  "duration": 27196473,
   "status": "passed"
 });
 formatter.after({
-  "duration": 17390,
+  "duration": 16134,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3021129012,
+  "duration": 3027083610,
   "status": "passed"
 });
 formatter.scenario({
@@ -89,25 +89,25 @@ formatter.match({
   "location": "shop.can_enter_email_and_rest_of_info()"
 });
 formatter.result({
-  "duration": 5192847973,
+  "duration": 5909026845,
   "status": "passed"
 });
 formatter.match({
   "location": "shop.login_details_entered()"
 });
 formatter.result({
-  "duration": 18717,
+  "duration": 24305,
   "status": "passed"
 });
 formatter.match({
   "location": "shop.user_can_login()"
 });
 formatter.result({
-  "duration": 14108,
+  "duration": 11664,
   "status": "passed"
 });
 formatter.after({
-  "duration": 9149,
+  "duration": 9568,
   "status": "passed"
 });
 });
